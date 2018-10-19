@@ -3,9 +3,6 @@ package com.sda.homeworks;
 import java.util.Scanner;
 
 public class FactorialRecursion {
-    import java.util.Scanner;
-
-    public class FactorialRecursion {
 
         public static void main(String[] args) {
             System.out.println("Enter one number: ");
@@ -17,5 +14,4 @@ public class FactorialRecursion {
             if (fact == 0) return 1;
             return factorial(fact - 1) * fact;
         }
-    }
 }
